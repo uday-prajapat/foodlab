@@ -1,0 +1,476 @@
+@media screen and (max-width:676px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+
+    }
+
+    .header-wrapper {
+
+        .logo {
+            padding-left: 15px;
+            width: 100px;
+        }
+    }
+
+    .menu {
+display: none;
+        >ul {
+            flex-direction: column;
+            width: 250px;
+            background: var(--white);
+            height: 100vh;
+            position: absolute;
+            left: 0;
+            align-items: flex-start !important;
+            top: 0;
+            z-index: 999;
+            
+
+           > li {
+                padding: 10px  !important;
+                &:last-child{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .hamburger {
+        display: block !important;
+        margin-right: 15px;
+
+        img {
+            width: 30px;
+
+        }
+    }
+
+    .slider {
+        height: 500px;
+
+        .slider-text {
+            width: 100%;
+
+            .slider-input {
+                input {
+                    width: 235px;
+                }
+            }
+
+            h1 {
+                font-size: 35px;
+                width: 60%;
+                margin: auto;
+            }
+
+            p {
+                width: 70%;
+            }
+
+            .slider-btn {
+                margin-top: 30px;
+
+                a {
+                    padding: 10px 20px;
+                }
+            }
+        }
+
+    }
+
+    .foodlab {
+        flex-direction: column;
+        margin-top: 150px;
+
+        .foodlab-img {
+            padding-left: 0;
+
+            img {
+                height: 400px;
+            }
+        }
+
+        .line-icon {
+            display: none;
+        }
+
+        .foodlab-img2 {
+
+
+            right: -15px;
+            top: 61px;
+
+        }
+
+        .foodlab-img-background {
+            width: 90%;
+            height: 300px;
+        }
+
+        .foodlab-text {
+            width: 100%;
+            padding: 50px 15px 0 15px;
+
+            h2 {
+                font-size: 26px;
+                line-height: 30px;
+
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 26px;
+                padding-bottom: 15px;
+            }
+
+            .foodlab-btn {
+                a {
+                    padding: 10px 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .foodlab-right-img {
+            display: none;
+        }
+    }
+
+    .hygienic {
+        margin-top: 50px;
+
+        h2 {
+            padding-bottom: 30px;
+            font-size: 25px;
+            line-height: 35px;
+            width: 100%;
+        }
+
+        ul {
+            display: block;
+            white-space: nowrap;
+            overflow-x: auto;
+
+            li {
+                display: inline-block;
+                width: 80%;
+                margin: 0 0 50px 0;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .special-recipes {
+        margin-top: 50px;
+
+        h2 {
+            font-size: 33px;
+            width: 70%;
+            margin: auto;
+            line-height: 35px;
+        }
+
+        ul {
+            display: block;
+            white-space: nowrap;
+            overflow-x: auto;
+
+            li {
+                display: inline-block;
+                width: 90%;
+                margin: 20px 0 0 0;
+
+                &:nth-child(2) {
+                    padding-top: 0;
+                }
+
+                &:nth-child(4) {
+                    padding-top: 0;
+                }
+
+                .recipes-text {
+                    left: 30%;
+                }
+            }
+        }
+
+        .recipes-btn a {
+            font-size: 15px;
+            padding: 10px 20px;
+        }
+    }
+
+    .services {
+        margin-top: 50px;
+
+        h2 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            width: 100%;
+        }
+
+        .services-right-img {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        ul {
+            display: block;
+            white-space: nowrap;
+            overflow-x: auto;
+
+            li {
+                display: inline-block;
+                width: 45%;
+
+                img {
+                    width: 100%;
+                }
+
+            }
+        }
+
+        .services-left-img {
+            display: none;
+        }
+    }
+
+    .delicious {
+        margin: 50px 0;
+        padding: 35px 0;
+
+        h2 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 100%;
+            padding-bottom: 20px;
+        }
+
+        ul {
+            flex-direction: column;
+
+            li {
+                width: 100%;
+                margin: 20px 0 0;
+            }
+        }
+    }
+
+    .restaurants {
+        flex-direction: column;
+
+        .restaurants-right-img {
+            display: none;
+        }
+
+        .restaurants-leht-panel {
+            padding: 50px 0 0 15px;
+            width: 100px;
+            height: 650px;
+
+
+            ul {
+                flex-direction: column;
+
+                li {
+                    width: 380px;
+
+                    &:nth-child(2) {
+                        position: static;
+                    }
+
+                    &:nth-child(4) {
+                        position: static;
+                    }
+
+                    .fresh-text {
+                        font-size: 15px;
+                        width: 70%;
+                        margin: auto;
+                    }
+
+                }
+            }
+        }
+
+        .restaurants-right-panel {
+            width: 100%;
+            margin-top: 500px;
+            padding: 0 15px;
+
+            h2 {
+                font-size: 25px;
+                line-height: 40px;
+                padding: 10px 0;
+            }
+
+            ul {
+                li {
+                    width: 100%;
+                    font-size: 19px;
+                }
+            }
+        }
+
+        .restaurants-bottom-img {
+            display: none;
+        }
+    }
+
+    .reserve {
+        margin-top: 50px;
+        flex-direction: column;
+
+        .reserve-left-img {
+            margin: 140px 0 180px;
+
+            .reserve-food-img {
+
+                img {
+                    width: 300px;
+                }
+            }
+        }
+
+        .reserve-right-img {
+            .reserve-text {
+                margin: 15px;
+            }
+        }
+    }
+
+    .chefs {
+        margin-top: 50px;
+
+        img {
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        p {
+            width: 100%;
+            font-size: 16px;
+            line-height: 25px;
+            padding: 10px 20px;
+        }
+
+        ul {
+            display: block;
+            white-space: nowrap;
+            overflow-x: auto;
+
+            li {
+                display: inline-block;
+                width: 90%;
+
+                .chefs-backgroung-img {
+                    .chefs-img {
+                        height: 100px;
+                        width: 100px;
+
+                        &::after {
+                            left: -6px;
+                            height: 110px;
+                            width: 110px;
+                        }
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .chefs-name {
+                    padding: 30px 0;
+                }
+            }
+        }
+
+
+        .chefs-img {
+            display: none;
+        }
+
+        .chefs-img2 {
+            display: none;
+        }
+    }
+
+    .Clients-backgroung {
+        padding: 50px 0;
+        margin: 50px 0 100px;
+
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            width: 100%;
+            font-size: 16px;
+            padding: 10px 0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        ul {
+            flex-direction: column;
+
+            li {
+                width: 100%;
+                margin: 20px 0 0;
+            }
+        }
+    }
+
+    .footer-background {
+        padding: 50px 0;
+        margin-top: 0;
+
+        .footer-text {
+            flex-direction: column;
+            text-align: center;
+
+            .first-panel {
+                ul {
+                    justify-content: space-between;
+                    justify-content: center;
+                }
+            }
+
+            .second-panel {
+                width: 100%;
+                padding: 0 20px;
+            }
+
+            .last-panel {
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+
+
+
+
+}

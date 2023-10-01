@@ -1,0 +1,114 @@
+.footer-background {
+    background: var(--brown);
+    margin-top: 350px;
+    padding: 100px 0 0;
+
+    .footer-text {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .first-panel {
+            h3 {
+                color: var(--brand-yellow);
+                font-family: Roboto;
+                font-size: 25px;
+                font-weight: 500;
+                padding-bottom: 30px;
+            }
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+
+                li {
+                    transition: 0.5s ease all;
+                    width: 40%;
+                    
+                    &:hover a{
+                        color: var(--brand-yellow);
+                    }
+                    a {
+                        color: var(--white-sad);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 50px;
+                    }
+                }
+            }
+       
+       
+        }
+        .second-panel{
+         text-align: center;
+         color: var(--white);
+         width: 33%;
+         margin-right: 100px;
+
+         .futter-logo{
+            width: 100%;
+            padding-bottom: 25px;
+            img{
+                width: 150px;
+            }
+         }
+         ul{
+            li{
+                padding-bottom: 10px;
+                color: var(--white-sad);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 35px;
+
+span{
+    color: var(--brand-yellow);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+}
+            }
+         }
+
+         .footer-social-icon{
+            margin-bottom: 50px;
+         }
+        }
+
+        .last-panel{
+width: 25%;
+            h3{
+                color: var(--brand-yellow);
+                font-family: Roboto;
+                font-size: 25px;
+                font-weight: 500;
+                padding-bottom: 30px; 
+                
+            }
+            ul{
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                    color: var(--white-sad);
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+
+    .copy-right{
+        color: var(--white);
+font-family: Roboto;
+font-size: 19px;
+font-weight: 400;
+text-align: center;
+padding: 20px 0;
+a{
+    color: var(--blue);
+}
+    }
+}
