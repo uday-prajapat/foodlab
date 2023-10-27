@@ -799,9 +799,6 @@ a {
 }
 .services ul li .services-image-text .services-icon h4 {
   padding-top: 10px;
-  width: 50%;
-}
-.services ul li .services-image-text .services-icon h4 a {
   color: var(--black);
   font-family: Roboto;
   font-size: 18px;
